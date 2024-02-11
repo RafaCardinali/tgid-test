@@ -1,0 +1,140 @@
+.topbar {
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    justify-content: right;
+}
+
+.topbar__open-cart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+}
+
+.cart-indicator {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 1.625rem;
+    right: 1.625rem;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 104;
+}
+
+.Cart {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 18.75rem;
+    position: fixed;
+    right: -18.75rem;
+    top: 0;
+    height: 100%;
+    background-color: #f8f9fa;
+    transition: right 0.3s ease-in-out;
+    z-index: 105;
+    padding: 1.25rem;
+    box-sizing: border-box;
+}
+  
+.cart-items__container {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.Cart.visible {
+    right: 0;
+}
+  
+.close-cart-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    align-self: flex-end;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    padding: .625rem 0;
+    margin-bottom: .625rem;
+    padding: .625rem 0;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .625rem;
+}
+
+.item-name-quantity {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.item-quantity-controls, .item-price {
+    display: flex;
+    align-items: center;
+}
+
+.item-quantity-controls button {
+    margin: 0 .3125rem;
+}
+
+.cart-items__item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-items__item-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .625rem;
+}
+
+.button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .3125rem;
+}
+
+.cart-items__item-footer > div {
+    display: flex;
+    align-items: center;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.cart-summary {
+    border-top: .125rem solid #ccc
+}
+  

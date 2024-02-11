@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .9375rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .5rem;
+    padding: .9375rem;
+    box-sizing: border-box;
+    width: calc(33.333% - .9375rem);
+    height: auto;
+}
+
+.product img {
+    width: 100%;
+    height: 12.5rem;
+    object-fit: contain;
+    margin-bottom: .9375rem;
+}
+
+.product__page {
+    padding: 1.25rem 3.75rem;
+}
+
+.product__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.page-info {
+    text-align: left;
+    font-size: .875rem;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+    width: 100%;
+}
+
+.pagination button {
+    padding: .3125rem .625rem;
+    margin: 0 .3125rem;
+    cursor: pointer;
+    border: .0625rem solid #ddd;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #f0f0f0;
+}
+
+.product__button-add-to-cart {
+    background-color: #333;
+    color: white;
+    padding: .625rem .5rem;
+    border-radius: .3125rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s;
+    font-weight: bold;
+    margin-top: .625rem;
+}
+
+.product__button-add-to-cart:hover {
+    background-color: #444;
+    transform: translateY(-0.125rem);
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.3);
+}
+
+.product__button-add-to-cart:active {
+    background-color: #222;
+    transform: translateY(.0625rem);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(50% - .5rem);
+        border: none;
+        padding: .5rem;
+    }
+
+    .product__page {
+        padding: 0 .9375rem;
+    }
+
+    .product img {
+        object-fit: cover;
+    }
+}

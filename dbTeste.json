@@ -1,0 +1,67 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Camiseta",
+        "image": "https://global.cdn.magazord.com.br/anarhu/img/2023/08/produto/4282/camiseta-branca-anarhu.jpg?ims=fit-in/635x865/filters:fill(white)",
+        "description": "Perfeito para a casualidade!",
+        "price": 39.90
+      },
+      {
+        "id": 2,
+        "name": "Camisa",
+        "image": "https://53464.cdn.lojaquevende.com.br/static/53464/sku/camisa-camisa-de-botao-masculina-linho-slim-preto-1685036154232.jpg",
+        "description": "Mantenha a elegância com nossas camisetas!",
+        "price": 89.90
+      },
+      {
+        "id": 3,
+        "name": "Regata",
+        "image": "https://img.irroba.com.br/fit-in/1000x1000/filters:format(webp):fill(transparent):quality(80)/techmalh/catalog/regata-masc/img-9578.png",
+        "description": "Nossas regatas te deixam despojado e na moda!",
+        "price": 39.9
+      },
+      {
+        "id": 4,
+        "name": "Calças",
+        "image": "https://cdn.dooca.store/226/products/cargo-3_450x600+fill_ffffff.jpg?v=1685144254&webp=0",
+        "description": "Mantenha o conforto com nossas linhas de calças",
+        "price": 89.90
+      },
+      {
+        "id": 5,
+        "name": "Calças Jeans",
+        "image": "https://cdn.awsli.com.br/809/809422/produto/76981748/c121db68d8.jpg",
+        "description": "Preze pela elegância com nossas calças jeans",
+        "price": 119.90
+      },
+      {
+        "id": 6,
+        "name": "Blusas",
+        "image": "https://a-static.mlcdn.com.br/450x450/moletom-de-ziper-blusa-de-frio-masculina-com-bolso-top-milene-store/singlestarauthentic/8fe47b886b3211ed8aec4201ac185019/66c846a12f74aba19234f655e60cffe9.jpeg",
+        "description": "O conforto se mantém com nossas Blusas",
+        "price": 89.90
+      },
+      {
+        "id": 7,
+        "name": "Polo",
+        "image": "https://6239028l.ha.azioncdn.net/img/2023/05/produto/5242/happy0835-copiar-jpg-1.jpg?ims=fit-in/614x819/filters:fill(white)",
+        "description": "A elegância está sempre com você!",
+        "price": 99.90
+      },
+      {
+        "id": 8,
+        "name": "Shorts",
+        "image": "https://global.cdn.magazord.com.br/anarhu/img/2023/09/produto/4448/bermuda-masculina-moletom-verde-alecrim-anarhu.jpg?ims=fit-in/635x865/filters:fill(white)",
+        "description": "Mantenha a moda ao seu lado com nossos shorts",
+        "price": 59.90
+      },
+      {
+        "id": 9,
+        "name": "Meia",
+        "image": "https://img.irroba.com.br/fit-in/500x500/filters:fill(fff):quality(80)/lojalaro/catalog/produtos/acessorios/meias/02150-2668/meia-02150-2668-01.jpg",
+        "description": "Maior conforto para seus pés!",
+        "price": 19.90
+      }
+    ]
+  }
